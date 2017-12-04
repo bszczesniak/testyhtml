@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body { /* selektor znacznika BODY 001*/
+	border: solid 5px hotpink;
+	background-color: yellow;
+	font-family: 'Sedgwick Ave Display', cursive;
+	background-attachment: fixed;
+}
+article { /* selektor znacznika ARTICLE 001*/
+	border: dashed 5px aqua;
+	padding: 10px;
+}
+.cRed { /* Selektor KLASY 020*/
+	color: #ff0000; 
+}
+.cGreen { /* Selektor KLASY */
+	color: #00ff00; 
+}
+.f500 {
+	font-weight: 500
+}
+.f700 {
+	font-weight: 700
+}
+#my-article { /* selektor ID 100 */
+border: solid 20px red;
+}
+
+.big-letter {
+	font-size: 50px;
+}
+
+a {
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 30px;
+}
+
+a:hover {
+	font-family: 'Zilla Slab Highlight', cursive;
+	color: red;
+	text-decoration: none;
+	font-size: 40px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.photo1{
+	width: 100px;
+	height: 100px;
+}
+
+.photo2{
+	width: 200px;
+	height: 200px;
+}
+
+.contact {
+	background-image: url(http://bluecanvas.pl/5498-thickbox_default/kot-kolorowa-grafika-z-motyw%C3%B3w-folkowych-.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
